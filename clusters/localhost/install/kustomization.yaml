@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/msevcik-ambulance-ufe
+- ../../../apps/msevcik-ambulance-webapi
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
+- 'https://github.com/wac-fiit/ambulance-webapi-cv3//deployments/kustomize/components/mongodb'
+
+patches:
+ - path: patches/ambulance-webapi.service.yaml
