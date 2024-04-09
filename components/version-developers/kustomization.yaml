@@ -4,11 +4,9 @@ images:
 - name: msevcik/ambulance-ufe
   newName: msevcik/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main.20240319.1026 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
-
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
-
 - name: msevcik/ambulance-wl-webapi
   newName: msevcik/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newTag: main.20240409.1011 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
