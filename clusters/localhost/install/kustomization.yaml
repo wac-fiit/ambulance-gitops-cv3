@@ -11,6 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/msevcik-ambulance-ufe
 - ../../../apps/msevcik-ambulance-webapi
+- ../../../apps/mongo-express
 
 components:
 - ../../../components/version-developers
